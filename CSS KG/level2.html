@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+        #bg_img{
+            height: 200px;
+            width: 100px;
+            background-image: url(myntra.jpeg);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+        .box{
+            height: 50px;
+            width: 50px;
+          
+        }
+        #box1{
+            background-color: red;
+            visibility: hidden;
+        }
+        #box2{
+            background-color: blue;
+            visibility: visible;
+        }
+
+    </style>
+</head>
+<body>
+    <p><h1>background color </h1> sets background color of an element</p>
+    <p style="background-color: yellow; color: red;"> background color example</p>
+    <p><h1>color system   </h1> </p>
+    RGB color system - 0-255,0-255,0-255
+    <br>
+    HEX color system - #000000 - #ffffff
+    <br>
+    HSL color system - hue, saturation, lightness
+    <br>
+    RGBA color system - red, green, blue, alpha (opacity)
+    <br>
+    <h4>RGB Example:</h4>
+    <p style="background-color: rgb(255, 0, 0); color: white;">This is an RGB color example (255, 0, 0)</p>
+
+    <h4>HEX Example:</h4>
+    <p style="background-color: #00ff00; color: black;">This is a HEX color example (#00ff00)</p>
+
+    <h4>HSL Example:</h4>
+    <p style="background-color: hsl(240, 100%, 50%); color: white;">This is an HSL color example (240, 100%, 50%)</p>
+
+    <h4>RGBA Example:</h4>
+    <p style="background-color: rgba(0, 0, 255, 0.5); color: white;">This is an RGBA color example (0, 0, 255, 0.5)</p>
+
+    <h1>Height & Width property</h1>
+    <p>height and width property is used to set the height and width of an element</p>
+    <p>can use units like px , % , em ,rem , vh , vw , vmin , vmax , auto</p>
+    <div id="box1">
+        <h1>box 1</h1>
+        <p>height: 100px; width: 100px;</p>
+    </div>
+    can us height and width property to set the height and width  of any of  the element
+    <h1>Background Image Property</h1>
+    <p>background image property is used to set the background image of an element</p>
+    <p>background image can be set using url() function</p>
+    <p>background size property is used to set the size of the background image</p>
+    <p>background repeat  property is used to set the repeatition of the background image</p>
+    <p>background position property is used to set the position of the background image</p>
+    <p>background attachment property is used to set the attachment of the background image</p>
+    <p>background origin property is used to set the origin of the background image</p>
+    <div id="bg_img">
+    </div>
+    <h1>Visibility property</h1>
+    <p>visibility property is used to set the visibility of an element</p>
+    <p>visibility property can have two values visible and hidden</p>
+    <p>visible - element is visible</p>
+    <p>hidden - element is hidden</p>
+    <p>can use visibility property to hide any of the element</p>
+    <div id="box1" class="box"></div>
+    above box is hidden <br>
+    below box is visible
+    <div class="box" id="box2"></div>
+    <br> if needed you can inspect the element to see the hidden box <br>
+    
+</body>
+</html>

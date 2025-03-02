@@ -1,0 +1,36 @@
+.progress-container{
+    height: 25px;
+    background-color: gainsboro;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    /* top: 20px; */
+    left: 5%;
+
+}
+.progress-bar{
+    background-color: lime;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    animation: animate_progress 7s;
+}
+@keyframes animate_progress {
+    0%{
+        width: 0%;
+    }
+    95%{
+    width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+
+    90%{
+        width: 90%;
+    }
+    100%{
+        width: 100%;
+    }
+}

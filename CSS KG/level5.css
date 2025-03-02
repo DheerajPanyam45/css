@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: greenyellow;
+    display: inline-block;
+}
+#first{ height: 100px;
+    width: 200px;
+    background-color: red;
+}
+#second{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(91, 255, 116);
+}
+#first_EM{ height: 100px;
+    width: 200px;
+    background-color: red;
+    font-size: 10px;
+}
+#second_EM{
+    width: 50%;
+    height: 50%;
+    font-size: 2em;
+    background-color: rgb(91, 255, 116);}
+    
+    #first_REM{ height: 100px;
+    width: 200px;
+    background-color: red;
+    font-size: 10px;
+}
+#second_REM{
+    width: 50%;
+    height: 50%;
+    font-size: 1.5rem;
+    background-color: rgb(91, 255, 116);}
+
+    #first_VH_VW{ height: 50vh;
+    width: 20vw;
+    background-color: red;
+    font-size: 10px;
+}
+.position{
+    height: 70px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+#static{
+    position: static;
+}
+#relative{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#absolute{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#fixed{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#zindex{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -5;
+}
